@@ -1,0 +1,6 @@
+{
+  "package": "type:string description: package name from app's manifest",
+  "id": "type:uuid.v4|string description: apps id, in Kabeer's App Store",
+  "releases": [
+  ]
+}

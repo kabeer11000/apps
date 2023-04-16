@@ -1,0 +1,24 @@
+{
+  "name": "android-bundletool",
+  "version": "1.0.0",
+  "description": "A self contained android bundletool wrapper",
+  "main": "index.js",
+  "scripts": {
+    "test": "node tests/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adityak74/android-bundletool.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adityak74/android-bundletool/issues"
+  },
+  "homepage": "https://github.com/adityak74/android-bundletool#readme",
+  "dependencies": {
+    "chalk": "4.1.2",
+    "fs-extra": "10.0.0",
+    "request": "2.88.2"
+  }
+}

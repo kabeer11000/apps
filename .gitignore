@@ -1,0 +1,6 @@
+ignore/
+**/kabeercloud.key.txt
+**/.DS_STORE
+**/node_modules/
+**/ignored
+**/ignore

@@ -1,0 +1,7 @@
+node_modules/
+bin/
+*.aab
+*.apks
+*.apk
+package-lock.json
+.DS_Store

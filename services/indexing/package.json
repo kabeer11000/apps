@@ -1,0 +1,14 @@
+{
+  "name": "indexing",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "sync": "node ./upload-to-server.js"
+  },
+  "dependencies": {
+    "archiver": "^5.3.1",
+    "form-data": "^4.0.0",
+    "node-fetch": "2.0.0"
+  }
+}

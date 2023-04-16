@@ -1,0 +1,7 @@
+syntax = "proto3";
+service IndexingServer {
+    rpc IndexAPK(IndexRequest) returns (IndexResponse);
+}
+message IndexRequest {
+    string hosted_uri = 1;
+}

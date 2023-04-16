@@ -1,0 +1,19 @@
+{
+  "name": "@kabeersnetwork/appstore-types",
+  "version": "1.0.0",
+  "description": "Kabeer's Network App Types",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kabeer11000/kabeers-appstore.git"
+  },
+  "author": "Kabeer Jaffri <kabeer@kabeersnetwork.tk>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kabeer11000/kabeers-appstore/issues"
+  },
+  "homepage": "https://github.com/kabeer11000/kabeers-appstore#readme"
+}

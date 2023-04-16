@@ -1,0 +1,48 @@
+{
+  "name": "@kabeersnetwork/appstore-yauzl",
+  "version": "2.10.0",
+  "description": "yet another unzip library for node",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test/test.js",
+    "test-cov": "istanbul cover test/test.js",
+    "test-travis": "istanbul cover --report lcovonly test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kabeer11000/kabeers-appstore.git"
+  },
+  "keywords": [
+    "unzip",
+    "zip",
+    "stream",
+    "archive",
+    "file"
+  ],
+  "contributors": [
+    {
+      "name": "Kabeer Jaffri <kabeer@kabeersnetwork.tk>"
+    },
+    {
+      "name": "Josh Wolfe <thejoshwolfe@gmail.com>"
+    }
+  ],
+  "author": "Kabeers Network Authors <kabeer@kabeersnetwork.tk>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/thejoshwolfe/yauzl/issues"
+  },
+  "homepage": "https://github.com/thejoshwolfe/yauzl",
+  "dependencies": {
+    "@kabeersnetwork/appstore-fd-slicer": "~1.1.0",
+    "@kabeersnetwork/appstore-buffer-crc32": "~0.2.3"
+  },
+  "devDependencies": {
+    "bl": "~1.0.0",
+    "istanbul": "~0.3.4",
+    "pend": "~1.2.0"
+  },
+  "files": [
+    "index.js"
+  ]
+}

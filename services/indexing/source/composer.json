@@ -1,0 +1,18 @@
+{
+    "name": "kabeersnetwork/appstore-scraper",
+    "autoload": {
+        "psr-4": {
+            "Kabeersnetwork\\AppstoreScraper\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "kabeer11000",
+            "email": "kabeer@kabeersnetwork.tk"
+        }
+    ],
+    "require": {
+        "nelexa/google-play-scraper": "0.4.0.9",
+        "bramus/router": "^1.6"
+    }
+}
