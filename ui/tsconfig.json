@@ -1,0 +1,23 @@
+{
+  "extends": "expo/tsconfig.base",
+  "compilerOptions": {
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "module": "esnext",
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "paths": {
+      "@Utilities/*": ["src/utilities/*"],
+      "@Components/*": ["src/components/*"],
+      "@Screens/*": ["src/screens/*"],
+      "@Hooks/*": ["src/hooks/*"],
+      "@Assets/*": ["assets/*"],
+      "@Types/*": ["types/*"]
+    }
+  },
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx"
+  ]
+}
