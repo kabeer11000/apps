@@ -1,0 +1,9 @@
+{
+  "name": "appstore",
+  "version": "1.0.0",
+  "description": "Free and Open-source APK/IPA store",
+  "main": " ",
+  "repository": "https://github.com/kabeer11000/apps",
+  "author": "kabeer11000 <kabeer@kabeersnetwork.tk>",
+  "license": "MIT"
+}

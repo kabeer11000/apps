@@ -3,6 +3,7 @@
 require_once '../vendor/autoload.php';
 require_once './crawler/Scraper.php';
 header("content-type: application/json");
+header("Access-Control-Allow-Origin: *");
 // Create a Router
 $router = new \Bramus\Router\Router();
 $gplay = new \Nelexa\GPlay\GPlayApps();
@@ -13,7 +14,7 @@ $router->get('/app/{package}', function($package) use ($gplay) {
     $google = new GooglePlay();
     $app = $google->parseApplication($package);
     $permissions = $google->parsePerms($package);
-    $app['poster'] = null; // $v2Info['cover'];
+    $app['poster'] = $v2Info['cover'];
     echo json_encode(array('app' => $app, 'app_v2' => $v2Info, 'permissions' => $permissions));
 });
 $router->get('/home', function () use ($gplay) {
